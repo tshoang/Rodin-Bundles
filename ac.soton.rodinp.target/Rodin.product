@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Rodin Platform" uid="org.rodinp.platform.product" id="org.rodinp.platform.product" application="org.eclipse.ui.ide.workbench" version="3.8.0-af2f57e1e-TG2306" useFeatures="true" includeLaunchers="true" autoIncludeRequirements="true">
+<product name="Rodin Platform" uid="org.rodinp.platform.product" id="org.rodinp.platform.product" application="org.eclipse.ui.ide.workbench" version="3.8.0.af2f57e1e-TG2306" useFeatures="true" includeLaunchers="true" autoIncludeRequirements="true">
 
    <aboutInfo>
       <image path="icons/about.gif"/>
@@ -48,14 +48,14 @@
    </plugins>
 
    <features>
-      <feature id="org.eventb.ide.source" version="3.7.0.qualifier" installMode="root"/>
-      <feature id="org.rodinp.platform.source" version="3.7.0.qualifier" installMode="root"/>
-      <feature id="org.rodinp.platform.tests.source" version="3.7.0.qualifier" installMode="root"/>
+      <feature id="org.eventb.ide.source" version="3.8.0.qualifier" installMode="root"/>
+      <feature id="org.rodinp.platform.source" version="3.8.0.qualifier" installMode="root"/>
+      <feature id="org.rodinp.platform.tests.source" version="3.8.0.qualifier" installMode="root"/>
       <feature id="org.rodinp.handbook.feature" installMode="root"/>
-      <feature id="org.eclipse.sdk" version="4.22.0.qualifier" installMode="root"/>
-      <feature id="org.eclipse.egit" version="6.0.0.qualifier" installMode="root"/>
-      <feature id="org.eclipse.emf.sdk" version="2.28.0.qualifier" installMode="root"/>
-      <feature id="org.eclipse.xtext.sdk" version="2.25.0.qualifier" installMode="root"/>
+      <feature id="org.eclipse.sdk" version="4.23.0.qualifier" installMode="root"/>
+      <feature id="org.eclipse.egit" version="6.1.0.qualifier" installMode="root"/>
+      <feature id="org.eclipse.emf.sdk" version="2.29.0.qualifier" installMode="root"/>
+      <feature id="org.eclipse.xtext.sdk" version="2.26.0.qualifier" installMode="root"/>
       <feature id="ac.soton.xeventb.sdk" version="3.0.0.qualifier" installMode="root"/>
       <feature id="ac.soton.eventb.roseEditor.sdk" version="1.8.0.qualifier" installMode="root"/>
       <feature id="org.eventb.smt" version="1.5.0.qualifier" installMode="root"/>
