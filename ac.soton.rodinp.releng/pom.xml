@@ -75,6 +75,12 @@
       <layout>p2</layout>
       <url>file://${basedir}/../${rodinp-dev}</url>
     </repository>
+    <!-- Camille Update Site -->
+    <repository>
+      <id>camille</id>
+      <layout>p2</layout>
+      <url>https://www.stups.hhu.de/camille_updates</url>
+    </repository>
   </repositories>
   
   <build>
