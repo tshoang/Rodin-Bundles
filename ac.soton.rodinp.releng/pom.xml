@@ -26,7 +26,7 @@
     <www-basedir>/tmp/rodin-build/</www-basedir>
 
     <!-- This should match the based Rodin platform in Rodin.product -->
-    <rodin-version>3.7.0.202204290954-46a4e4e99</rodin-version>
+    <rodin-version>3.8.0.af2f57e1e</rodin-version>
 
     <!-- Plug-in versions -->
     <tycho-version>2.7.5</tycho-version>
@@ -52,9 +52,9 @@
     </repository>
     <!-- Eclipse Releases Update Site -->
     <repository>
-      <id>2021-12</id>
+      <id>2022-03</id>
       <layout>p2</layout>
-      <url>https://download.eclipse.org/releases/2021-12</url>
+      <url>https://download.eclipse.org/releases/2022-03</url>
     </repository>
     <!-- GMF Tooling Update Site -->
     <repository>
@@ -74,6 +74,12 @@
       <id>rodinp-dev</id>
       <layout>p2</layout>
       <url>file://${basedir}/../${rodinp-dev}</url>
+    </repository>
+    <!-- Camille Update Site -->
+    <repository>
+      <id>camille</id>
+      <layout>p2</layout>
+      <url>https://www.stups.hhu.de/camille_updates</url>
     </repository>
   </repositories>
   
