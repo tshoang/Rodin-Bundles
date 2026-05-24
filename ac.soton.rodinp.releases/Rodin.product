@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Rodin Platform" uid="org.rodinp.platform.product" id="org.rodinp.platform.product" application="org.eclipse.ui.ide.workbench" version="3.8.0.af2f57e1e-RL2306" useFeatures="true" includeLaunchers="true" autoIncludeRequirements="true">
+<product name="Rodin Platform" uid="org.rodinp.platform.product" id="org.rodinp.platform.product" application="org.eclipse.ui.ide.workbench" version="3.8.0.af2f57e1e-RL2306" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
       <image path="icons/about.gif"/>
@@ -51,7 +51,7 @@
       <feature id="org.rodinp.platform" version="3.8.0.qualifier"/>
       <feature id="org.rodinp.handbook.feature" installMode="root"/>
       <feature id="ac.soton.xeventb.feature" version="2.1.1.qualifier" installMode="root"/>
-      <feature id="org.eventb.texteditor.feature" version="3.5.1.qualifier" installMode="root"/>
+      <feature id="org.eventb.texteditor.feature" version="3.6.0.qualifier" installMode="root"/>
       <feature id="org.eventb.smt" version="1.5.0.qualifier" installMode="root"/>
       <feature id="de.prob2.feature" version="3.1.0.qualifier" installMode="root"/>
       <feature id="org.eclipse.rmf.reqif10.pror.feature" version="0.13.0.qualifier" installMode="root"/>
